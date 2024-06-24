@@ -70,10 +70,6 @@
     "babel-constants": "babel --no-babelrc src/constants.ts --extensions '.ts' --out-dir dist/src/ --config-file ./.babelrcAlt --plugins=babel-plugin-import-json-value",
     "babel-src": "babel --no-babelrc src --extensions '.ts' --ignore 'src/constants.ts' --out-dir dist/src --config-file ./.babelrcAlt"
   },
-  "optionalDependencies": {
-    "canvas": "^2.11.2",
-    "jsdom": "^20.0.1"
-  },
   "devDependencies": {
     "@babel/cli": "^7.22.9",
     "@babel/core": "^7.22.9",
